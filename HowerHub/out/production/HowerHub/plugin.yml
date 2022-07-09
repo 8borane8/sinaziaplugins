@@ -1,0 +1,14 @@
+name: HowerHub
+author: Borane#9999
+version: 1.0.0
+main: fr.borane.hower.lobby.Main
+
+commands:
+  spawn:
+    name: Spawn
+    description: Teleport to spawn
+    permission: hower.lobby.spawn
+  setspawn:
+    name: Set Spawn
+    description: Set spawn
+    permission: hower.lobby.spawn.set

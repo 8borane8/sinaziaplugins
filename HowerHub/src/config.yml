@@ -1,0 +1,25 @@
+# Bypass:
+# hower.lobby.bypass.blockbreak
+# hower.lobby.bypass.blockplace
+# hower.lobby.bypass.moveitem
+# hower.lobby.bypass.chat
+
+spawn:
+  posX: 0.5
+  posY: 80
+  posZ: 0.5
+  yaw: 90
+  pitch: 0
+
+messages:
+  welcome_message:
+    - "&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-"
+    - ""
+    - "&l&b   Bienvenue sur &3Sinazia"
+    - ""
+    - "&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-&b-&3-"
+  join_message: '&a[+]&f %pseudo%'
+  quit_message: '&4[-]&f %pseudo%'
+  missing_permission: "&cVous n'avez pas la permission d'executer cette commande !"
+  setspawn_success: '&aLe point de spawn a bien ete mis a jour !'
+  chat_error: "&cVous ne pouvez pas parler dans le chat !"

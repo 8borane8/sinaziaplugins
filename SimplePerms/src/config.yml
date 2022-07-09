@@ -1,0 +1,11 @@
+# simpleperms.chat.colors
+# simpleperms.chat
+
+chat: false
+
+sql:
+  host: "45.140.165.82"
+  user: "u13874_TEkzTCg8EE"
+  pass: "b4i^RlVs^oRVvH4e.MnP+Jo="
+  name: "s13874_permissions"
+  port: 3306

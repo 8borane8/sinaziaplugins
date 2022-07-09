@@ -1,0 +1,47 @@
+name: HowerBungee
+author: Borane#9999
+version: 1.0.0
+main: fr.borane.hower.bungee.Main
+
+commands:
+  lobby:
+    name: Lobby
+    description: Teleport to lobby
+    permission: hower.bungee.lobby
+  secretfactiontp:
+    name: Lobby
+    description: Teleport to lobby
+    permission: hower.bungee.faction
+  secretminagetp:
+    name: Minage
+    description: Teleport to Minage
+    permission: hower.bungee.minage
+  secretpvpboxtp:
+    name: Pvp box
+    description: Teleport to Pvp box
+    permission: hower.bungee.pvpbox
+  pban:
+    name: Permanently Ban
+    description: Permanently Ban Player
+    usage: Use /pban [player] <raison>
+    permission: hower.bungee.pban
+  tban:
+    name: Temporally Ban
+    description: Temporally Ban Player
+    permission: hower.bungee.tban
+  pmute:
+    name: Permanently Mute
+    description: Permanently Mute Player
+    permission: pmute.use
+  tmute:
+    name: Temporally Mute
+    description: Temporally Mute Player
+    permission: hower.bungee.tmute
+  punban:
+    name: UnBan
+    description: UnBan Player
+    permission: hower.bungee.punban
+  punmute:
+    name: UnMute
+    description: UnMute Player
+    permission: hower.bungee.punmute

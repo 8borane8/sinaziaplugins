@@ -1,0 +1,70 @@
+# Spécific Permissions:
+# hower.faction.specific.chatcolor
+
+# Sql
+# Money -> uuid (unique / varchar / 255) -> amount ( int / 11 )
+
+spawn:
+  posX: 0.5
+  posY: 80
+  posZ: 0.5
+  yaw: 90
+  pitch: 0
+
+messages:
+  join_message: '&a[+]&f %pseudo%'
+  quit_message: '&4[-]&f %pseudo%'
+  missing_permission: 'Missing Permissions'
+  missing_arguments: 'Missing Arguments'
+  home_list: "Your homes:"
+  nohome: "You dont have home"
+  setspawn_success: 'Success'
+  home_success: "Tp at %name%"
+  sethome_success: "Set %name%"
+  delhome_success: "Delete %name%"
+  home_not_find: "Home %name% does not exist !"
+  max_home_error: "You have max %amount% homes"
+  money: "You have %amount%$"
+  player_not_found: "%name% not found !"
+  pay_numeric_error: "%number% is not a number"
+  pay_unsiffisant_found: "You have max %amount%$"
+  pay_success: "You have pay %amount% at %player%"
+  money_set_success: "Success"
+  money_give_success: "Success"
+  money_top: "Top money:"
+  money_top_arg: "%position%. %player% has %amount%"
+  info_clearlag: "Clearlag in %time%"
+  force_clearlag: "Forced Clearlag in 5sec"
+  clearlag: "Clearlag"
+  freez: "%name% has been freezed"
+  unfreez: "%name% has been unfreezed"
+  player_not_freez: "%name% not freez !"
+  can_move_freez: "You are freez !"
+  fight: "Your are in fight for 30sec"
+  error_in_fight: "You are in fight"
+  vanish_on: "Vanish on !"
+  vanish_off: "Vanish off !"
+  faction_help:
+    - "Lol"
+    - "Lol2"
+    - "Lol3"
+  faction_arg_ot_found: "La sous commande n'a pas été trouver"
+  faction_create_error: "Vous ne pouvez pas créer de faction"
+  faction_already_exist: "La faction %name% existe déjà"
+  faction_create_success: "La faction %name% a bien ete créer"
+  faction_disband_not_owner: "Vous n'etes pas le owner de votre faction"
+  faction_disband_success: "La faction %faction% a bien été supprimé par %name% !"
+  faction_disband_error: "Tu ne peux pas supprimer la faction"
+  faction_leave_wilderness_error: "Tu ne peux pas quitter la Wilderness"
+  faction_leave_owner_error: "Vous etes l'owner de la faction utiliser disband !"
+  faction_create_max_length: "Le nom de faction ne peux pas dépasser 14 caractères"
+  warp_not_found: "Le warp %name% n'existe pas"
+  warp_del_success: "Le warp %name% a ete supprimé"
+  setwarp_success: "Le warp %name% a ete set"
+
+sql:
+  host: "45.140.165.82"
+  port: 3306
+  user: "u13874_bAt6RNjzCG"
+  pass: "RdyEHUgay0!WB6Cs.cLo^Bga"
+  name: "s13874_faction"

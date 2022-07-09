@@ -1,0 +1,76 @@
+name: HowerFaction
+author: Borane#9999
+version: 1.0.0
+main: fr.borane.hower.faction.Main
+
+commands:
+  spawn:
+    name: Spawn
+    description: Teleport to spawn
+    permission: hower.faction.spawn
+  setspawn:
+    name: Set Spawn
+    description: Set spawn
+    permission: hower.faction.spawn.set
+  home:
+    name: Home
+    description: Home
+    permission: hower.faction.home
+  sethome:
+    name: Set Home
+    description: Set Home
+    permission: hower.faction.home.set
+  delhome:
+    name: Del Home
+    description: Del Home
+    permission: hower.faction.home.del
+  money:
+    name: Money
+    description: Money
+    permission: hower.faction.money
+  pay:
+    name: Pay
+    description: Pay
+    permission: hower.faction.money.pay
+  clearlag:
+    name: Clearlag
+    description: Clearlag
+    permission: hower.faction.clearlag
+  freez:
+    name: Freez
+    description: Freez
+    permission: hower.faction.freez
+  unfreez:
+    name: Unfreez
+    description: Unfreez
+    permission: hower.faction.unfreez
+  top:
+    name: Top
+    description: Top
+    permission: hower.faction.money.top
+  vanish:
+    name: Vanish
+    description: Vanish
+    permission: hower.faction.vanish
+  faction:
+    name: Vanish
+    description: Vanish
+    permission: hower.faction.faction
+    aliases:
+      - f
+  invsee:
+    name: Invsee
+    description: Invsee
+    permission: hower.faction.invsee
+  warp:
+    name: Warp
+    description: Warp
+    permission: hower.faction.warp
+  setwarp:
+    name: Setwarp
+    description: Setwarp
+    permission: hower.faction.warp.set
+  delwarp:
+    name: Delwarp
+    description: Delwarp
+    permission: hower.faction.warp.del

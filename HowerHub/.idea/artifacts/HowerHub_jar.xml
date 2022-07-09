@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HowerHub:jar">
+    <output-path>$PROJECT_DIR$/../serveur-spigot-1.7.10/plugins</output-path>
+    <root id="archive" name="HowerHub.jar">
+      <element id="module-output" name="HowerHub" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../serveur-spigot-1.7.10/server.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
